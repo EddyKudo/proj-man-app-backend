@@ -221,8 +221,6 @@ def delete_todo(current_user, todo_id):
 
     return jsonify ({"message" : "Successfully deleted the Todo item! Great!"})
 
-
-
 # # generate sitemap with all your endpoints
 # @app.route('/')
 # def sitemap():
